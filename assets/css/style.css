@@ -1,1 +1,63 @@
+/*
+|--------------------------------------------------------------------------
+| General styles
+|--------------------------------------------------------------------------
+*/
+/*Style for the body*/
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+/*
+|--------------------------------------------------------------------------
+| Form Styles 
+|--------------------------------------------------------------------------	
+*/
+form {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h1{
+    text-align: center;
+    margin: 0;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button Submit */
+input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #555;
+}
