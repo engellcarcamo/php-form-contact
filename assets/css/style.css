@@ -61,3 +61,25 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #555;
 }
+/*
+|--------------------------------------------------------------------------
+|  Alert Styles
+|--------------------------------------------------------------------------
+*/
+.alert{
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.danger{
+    background-color: rgb(150, 29, 29);
+    color: white;
+}
